@@ -50,7 +50,7 @@ const checkwin = () => {
             }
         }
     }
-    // Check for draw: if all boxes are filled and no winner
+    
     boxes.forEach(box => {
         if (box.innerText === "") isDraw = false;
     });
